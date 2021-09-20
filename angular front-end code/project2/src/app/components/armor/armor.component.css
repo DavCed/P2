@@ -1,0 +1,95 @@
+.white{
+
+  color: white;
+  text-shadow:
+  -1px -1px 0 rgb(0, 0, 0),
+  1px -1px 0 rgb(0, 0, 0),
+  -1px 1px 0 rgb(0, 0, 0),
+  1px 1px 0 rgb(0, 0, 0);  
+  font-size:17px;
+}
+.white2{
+  color: rgb(255, 255, 255);
+  text-shadow:
+  -1px -1px 0 rgb(54, 1, 1),
+  1px -1px 0 rgb(54, 1, 1),
+  -1px 1px 0 rgb(54, 1, 1),
+  1px 1px 0 rgb(54, 1, 1);  
+}
+.dividerView{
+  width:5px;
+  height:100px;
+  display:inline-block;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 10px 5px 0px,0px;
+  text-align: center;
+  background-image: url("src\assets\Images\Emerald.png");
+  object-fit: fill;
+  width: 800px;
+  height: 400px;
+  /*background: linear-gradient(#765338,#64a43a);*/
+}
+.padding{
+padding: 30px;
+}
+.imageSizing{
+  margin-left: auto;
+  margin-right: auto;
+    width: 14%;
+    height: 100%;
+}
+.helmetSizing{
+margin-left: auto;
+margin-right: auto;
+width: 14%;
+height: 100%;
+}
+.singleSizing{
+
+/* padding: 15px 25px; */
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 10%;
+height: 100%;
+
+}
+
+
+/*Cards css */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+  float: left;
+  width: 50.%;
+}
+.column2 {
+  float: left;
+  width: 35%;
+  padding: 20px 10px;
+}
+
+.row {margin: 5px 35px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
